@@ -43,7 +43,7 @@ const Home: NextPage = () => {
                 <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
                 <Image
                   alt="Original photo of my bro"
-                  src="/michael.jpg"
+                  src="/input.jpg"
                   className="w-96 h-96 rounded-2xl"
                   width={400}
                   height={400}
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
                   alt="Restored photo of my bro"
                   width={400}
                   height={400}
-                  src="/michael-new.jpg"
+                  src="/output.jpg"
                   className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
