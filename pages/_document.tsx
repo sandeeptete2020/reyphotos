@@ -6,16 +6,16 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
-<script>
+          <Script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></Script>
+<Script>
   {`
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-   gtag(&#x27;js&#x27;, new Date());
+   gtag('js', new Date());
 
-  gtag(&#x27;config&#x27;, &#x27;G-BKWNKDQJQH&#x27;);
+  gtag('config', 'G-BKWNKDQJQH');
   `}
-</script>
+</Script>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
