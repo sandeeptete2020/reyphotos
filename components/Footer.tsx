@@ -40,7 +40,7 @@ export default function Footer() {
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  var gtag = function () { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-BKWNKDQJQH');
