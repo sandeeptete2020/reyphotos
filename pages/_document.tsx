@@ -19,19 +19,19 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Restore your old face photos and keep the memories alive."
+            content="AI-Powered Photo Restoration. Bring Faded Memories Back To Life"
           />
-          <meta property="og:site_name" content="restorePhotos.io" />
+          <meta property="og:site_name" content="reygrow.com" />
           <meta
             property="og:description"
             content="Restore your old face photos and keep the memories alive."
           />
-          <meta property="og:title" content="Face Photo Restorer" />
+          <meta property="og:title" content="AI-Powered Face Photo Restoration" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Face Photo Restorer" />
+          <meta name="twitter:title" content="AI-Powered Face Photo Restoration" />
           <meta
             name="twitter:description"
-            content="Restore your old photos and keep the memories alive."
+            content="Restore and upscale your old, blurry and distorted photos."
           />
           <meta
             property="og:image"
