@@ -37,14 +37,6 @@ export default function Footer() {
           </svg>
         </Link>
       </div>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  var gtag = function () { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-BKWNKDQJQH');
-</script>
     </footer>
   );
 }
