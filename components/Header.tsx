@@ -16,20 +16,7 @@ export default function Header() {
          ReyGrow
         </h1>
       </Link>
-      <a
-        href="https://vercel.com"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <Image
-          alt="Vercel Icon"
-          src="/vercelLogo.png"
-          className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
-          width={32}
-          height={28}
-        />
-      </a>
-      <!-- Google tag (gtag.js) -->
+     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
