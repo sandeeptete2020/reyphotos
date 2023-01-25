@@ -5,10 +5,9 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-       <Analytics trackingId="GA-XXXXXXXX-X" />
 
       <Component {...pageProps} />
-      <Analytics />
+      <Analytics trackingId="GA-XXXXXXXX-X" />
     </>
   );
 }
