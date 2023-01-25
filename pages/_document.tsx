@@ -5,14 +5,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-BKWNKDQJQH');
-</script>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
