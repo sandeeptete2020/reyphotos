@@ -16,7 +16,6 @@ export default function Header() {
          ReyGrow
         </h1>
       </Link>
-     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
