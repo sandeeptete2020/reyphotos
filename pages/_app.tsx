@@ -5,11 +5,10 @@ import "../styles/globals.css";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-        <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"
+        <script src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"
         strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <script id="google-analytics" strategy="afterInteractive">
         {'
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
@@ -17,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
           gtag('config', 'G-BKWNKDQJQH');
         '}
-      </Script>
+      </script>
       <Component {...pageProps} />
       <Analytics />
     </>
