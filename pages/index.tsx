@@ -40,9 +40,9 @@ const Home: NextPage = () => {
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-2 sm:flex-row flex-col">
               <div>
-                <h2 className="mb-1 font-medium text-lg">Original Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">Before</h2>
                 <Image
-                  alt="Original photo of my bro"
+                  alt=""
                   src="/input.jpg"
                   className="w-96 h-96 rounded-2xl"
                   width={400}
@@ -50,9 +50,9 @@ const Home: NextPage = () => {
                 />
               </div>
               <div className="sm:mt-0 mt-8">
-                <h2 className="mb-1 font-medium text-lg">Restored Photo</h2>
+                <h2 className="mb-1 font-medium text-lg">After</h2>
                 <Image
-                  alt="Restored photo of my bro"
+                  alt=""
                   width={400}
                   height={400}
                   src="/output.jpg"
