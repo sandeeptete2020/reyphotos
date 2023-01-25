@@ -37,7 +37,6 @@ export default function Footer() {
           </svg>
         </Link>
       </div>
-      <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
