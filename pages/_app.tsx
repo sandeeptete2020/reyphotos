@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
 
       <Component {...pageProps} />
-      <Analytics trackingId="GA-XXXXXXXX-X" />
+      <Analytics />
     </>
   );
 }
