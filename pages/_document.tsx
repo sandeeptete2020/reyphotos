@@ -6,18 +6,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-BKWNKDQJQH');
-        `}
-      </Script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BKWNKDQJQH');
+</script>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
