@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           function gtag(){window.dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-xxxxxxxxxx');
+          gtag('config', 'G-BKWNKDQJQH');
         '}
       </Script>
       <Component {...pageProps} />
