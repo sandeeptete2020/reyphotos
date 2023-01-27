@@ -1,3 +1,8 @@
+div#__next {
+     background: url(https://raw.githubusercontent.com/sandeeptete23/reygrowphotos/main/public/bgg.jpg);
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
 .loading {
   display: inline-flex;
   align-items: center;
