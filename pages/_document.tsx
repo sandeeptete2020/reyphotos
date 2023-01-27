@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
            <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Anton">
+          href="https://fonts.googleapis.com/css?family=Anton"/>
           <Script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></Script>
 <Script>
   {`
