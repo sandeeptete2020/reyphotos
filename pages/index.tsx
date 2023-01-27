@@ -9,6 +9,15 @@ import { Testimonials } from "../components/Testimonials";
 
 const Home: NextPage = () => {
   return (
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BKWNKDQJQH');
+</script>
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>AI-Powered Photo Restoration - Bring Faded Memories Back to Life</title>
