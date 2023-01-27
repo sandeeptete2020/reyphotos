@@ -6,6 +6,9 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+           <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Anton">
+    <style>
           <Script async src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"></Script>
 <Script>
   {`
