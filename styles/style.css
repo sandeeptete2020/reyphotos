@@ -3,3 +3,6 @@
     /* background-repeat: no-repeat; */
     /* background-size: contain; */
 }
+.flex.max-w-6xl.mx-auto.flex-col.items-center.justify-center.py-2.min-h-screen {
+    background: #fff;
+}
