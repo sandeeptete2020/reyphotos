@@ -17,3 +17,6 @@ a.bg-black.rounded-xl.text-white.font-medium.px-4.py-3.sm\:mt-10.mt-8.hover\:bg-
     color: #000;
     border: 1px solid #b0d2bd;
 }
+.uploader__widget-base__children {
+    background: #D5D2C2;
+}
