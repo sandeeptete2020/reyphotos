@@ -6,23 +6,9 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import SquigglyLines from "../components/SquigglyLines";
 import { Testimonials } from "../components/Testimonials";
-import Script from 'next/script';
 
 const Home: NextPage = () => {
   return (
-   <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-BKWNKDQJQH"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-BKWNKDQJQH');
-        `}
-      </Script>
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>AI-Powered Photo Restoration - Bring Faded Memories Back to Life</title>
