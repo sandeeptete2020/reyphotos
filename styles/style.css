@@ -6,3 +6,6 @@
 .flex.max-w-6xl.mx-auto.flex-col.items-center.justify-center.py-2.min-h-screen {
     background: #fff;
 }
+.mx-auto.px-4.sm\:px-6.lg\:px-8 {
+    display: none;
+}
