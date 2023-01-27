@@ -1,6 +1,6 @@
 #__next {
      background: url(https://raw.githubusercontent.com/sandeeptete2020/reyphotos/main/public/bgg.jpg);
-    /* background-repeat: no-repeat; */
+    background-repeat: repeat;
     /* background-size: contain; */
 }
 .flex.max-w-6xl.mx-auto.flex-col.items-center.justify-center.py-2.min-h-screen {
