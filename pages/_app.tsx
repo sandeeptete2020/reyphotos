@@ -1,6 +1,6 @@
 import { Analytics } from "@vercel/analytics/react";
 import Script from 'next/script';
-import '../style.css'
+import '../styles/style.css'
 import type { AppProps } from "next/app";
 import "../styles/globals.css";
 
