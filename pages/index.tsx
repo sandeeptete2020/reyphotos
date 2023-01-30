@@ -12,6 +12,8 @@ const Home: NextPage = () => {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>AI-Powered Photo Restoration - Bring Faded Memories Back to Life</title>
+                <meta name="description" content=" The AI that will restore and upscale your old, blurry and distorted photos" />
+
       </Head>
 
       <Header />
@@ -26,8 +28,8 @@ const Home: NextPage = () => {
         </h1>
 
         <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-          Our state-of-the-art technology will restore and upscale your old, blurry and distorted photos,
-          making them as clear and crisp as the day they were taken. And the best part? It's 100% free.
+          The AI that will restore and upscale your old, blurry and distorted photos,
+          making them as clear and crisp as the day they were taken.
         </p>
         <Link
           className="bg-black rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-black/80"
