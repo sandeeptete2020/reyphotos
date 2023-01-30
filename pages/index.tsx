@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                 <h2 className="mb-1 font-medium text-lg">Before</h2>
                 <Image
                   alt=""
-                  src="/michael.jpg"
+                  src="/input.jpg"
                   className="w-96 h-96 rounded-2xl"
                   width={400}
                   height={400}
@@ -56,7 +56,7 @@ const Home: NextPage = () => {
                   alt=""
                   width={400}
                   height={400}
-                  src="/michael-new.jpg"
+                  src="/output.jpg"
                   className="w-96 h-96 rounded-2xl sm:mt-0 mt-2"
                 />
               </div>
