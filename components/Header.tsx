@@ -16,6 +16,9 @@ export default function Header() {
          ReyGrow
         </h1>
       </Link>
+      <Head>
+        <title>AI-Powered Photo Restoration - Bring Faded Memories Back to Life</title>
+      </Head>
     </header>
   );
 }
